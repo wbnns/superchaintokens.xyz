@@ -1,6 +1,6 @@
 ---
-name: Add Token List
-about: Add a list to tokenlist.org
+name: Add Token or List
+about: Add a token or list to superchaintokens.xyz
 title: 'Request: add {List name}'
 labels: list-request
 assignees: ''
@@ -12,13 +12,7 @@ Before submission delete this line:
 
 **YOU MUST FOLLOW THE JSON SPECIFICATION**
 
-https://github.com/Uniswap/token-lists
-
-Checklist
-- [ ] **I understand that this is not the place to request token listing.**
-- [ ] I have tested that my list is compatible by pasting the url into the `add a list` UI at `app.uniswap.org`.
-- [ ] I understand that filing an issue or adding liquidity does not guarantee addition to the token list website.
-- [ ] I will not ping the Discord about this listing request.
+https://github.com/wbnns/superchaintokens.xyz
 
 **Please provide the following information for your token.**
 List url must be HTTPS, IPFS or ENS.
