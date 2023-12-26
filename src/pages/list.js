@@ -11,7 +11,7 @@ import '../index.css'
 
 const Content = styled.section`
   display: grid;
-  grid-template-columns: 300px 800px;
+  grid-template-columns: 240px 800px;
   grid-gap: 48px;
   position: relative;
   box-sizing: border-box;

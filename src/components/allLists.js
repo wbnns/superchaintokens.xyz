@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import FilterResults from 'react-filter-search'
 
 import Card from './card'
-import Search from './search'
 import tokenLists from '../token-lists.json'
 import { useMultiFetch } from '../utils/useMultiFetch'
 // import { ListItem } from '../components/list-tokens'
@@ -115,7 +114,6 @@ export default function AllLists() {
 
   return (
     <StyledAllLists>
-      <Search handleChange={handleChange} value={value} setValue={setValue} />
 
       {/* <h1>Lists</h1> */}
 
