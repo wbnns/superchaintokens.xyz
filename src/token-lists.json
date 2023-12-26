@@ -2,5 +2,13 @@
   "https://superchaintokens.xyz/base.json": {
     "name": "Base",
     "homepage": "https://base.org/"
-  }
+  },
+  "https://superchaintokens.xyz/optimism.json": {
+    "name": "Optimism",
+    "homepage": "https://www.optimism.io/"
+  },
+  "https://superchaintokens.xyz/public-goods-network.json": {
+    "name": "Public Goods Network",
+    "homepage": "https://publicgoods.network/"
+  },
 }
