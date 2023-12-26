@@ -69,19 +69,10 @@ const HoverLink = styled.a`
 export default function Header() {
   return (
     <Hero>
-      <span style={{ marginBottom: '1rem' }}>
-        A{' '}
-        <a href="https://uniswap.org/" className="uniswap">
-          Uniswap
-        </a>{' '}
-        Project
-      </span>
-
-      <p className="title">An Ethereum token list standard.</p>
+      <p className="title">A Superchain token list registry</p>
 
       <p style={{ fontSize: '20px', lineHeight: '150%' }} className="description" id="why-lists">
-        Token Lists is a community-led initiative to improve discoverability, reputation and trust in ERC20 token lists
-        in a manner that is inclusive, transparent, and decentralized.
+        Superchain Tokens is an open registry of tokens across various networks on the Superchain
       </p>
       <HoverLink target="_blank" rel="noopener noreferrer" href="https://uniswap.org/blog/token-lists/">
         {'->'} Why token lists?
@@ -92,9 +83,6 @@ export default function Header() {
         href="https://github.com/Uniswap/token-lists#authoring-token-lists"
       >
         {'->'} Make your own
-      </HoverLink>
-      <HoverLink target="_blank" rel="noopener noreferrer" href="https://github.com/Uniswap/token-list-bridge-utils">
-        {'->'} Convert to multi-chain list
       </HoverLink>
       <HoverLink target="_blank" rel="noopener noreferrer" href="http://community.tokenlists.org/">
         {'->'} Community
