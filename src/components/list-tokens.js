@@ -118,14 +118,6 @@ export const ListItem = memo(function ListItem({ token }) {
       </TokenInfo>
       <Chain>{lookUpchain(token.chainId)}</Chain>
       <span>{token.symbol}</span>
-      <TokenTagWrapper className="hide-small">
-        {token?.tags?.length > 0 && (
-          <>
-            <TokenTag>{token.tags[0].toUpperCase()}</TokenTag>
-            {token.tags.length > 1 && <TokenTag>...</TokenTag>}
-          </>
-        )}
-      </TokenTagWrapper>
       <TokenAddress>
         <a style={{ textAlign: 'right' }} href={scannerUrl}>
           {`${tokenAddress?.slice(0, 6)}...${tokenAddress?.slice(38, 42)}`}
