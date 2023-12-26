@@ -1,0 +1,43 @@
+{
+  "name": "Public Goods Network",
+  "logoURI": "https://ethereum-optimism.github.io/optimism.svg",
+  "keywords": [
+    "scaling",
+    "layer2",
+    "infrastructure"
+  ],
+  "timestamp": "2023-12-26T01:55:07.264088",
+  "tokens": [
+    {
+      "chainId": 424,
+      "address": "0x6C121674ba6736644A7e73A8741407fE8a5eE5BA",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "DAI"
+      }
+    },
+    {
+      "chainId": 424,
+      "address": "0x6535b3db9B908a2bbA29F83c168a0e661C3fAbf7",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "USDT"
+      }
+    }
+  ],
+  "version": {
+    "major": 9,
+    "minor": 0,
+    "patch": 21
+  }
+}
