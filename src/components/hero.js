@@ -69,7 +69,7 @@ const HoverLink = styled.a`
 export default function Header() {
   return (
     <Hero>
-      <p className="title">A Superchain token list registry</p>
+      <p className="title">A token list registry for the Superchain</p>
 
       <p style={{ fontSize: '20px', lineHeight: '150%' }} className="description" id="why-lists">
         Superchain Tokens is an open registry of tokens across various networks on the Superchain
