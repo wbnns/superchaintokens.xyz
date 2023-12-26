@@ -1,11 +1,6 @@
 {
   "name": "Optimism Goerli (Testnet)",
   "logoURI": "https://superchaintokens.xyz/optimism.svg",
-  "keywords": [
-    "scaling",
-    "layer2",
-    "infrastructure"
-  ],
   "timestamp": "2023-12-26T01:55:07.264088",
   "tokens": [
     {
