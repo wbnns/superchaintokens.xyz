@@ -4,7 +4,7 @@
     "homepage": "https://base.org/"
   },
   "https://superchaintokens.xyz/base-goerli.json": {
-    "name": "Base Goerli (Testnet)",
+    "name": "Base Goerli",
     "homepage": "https://base.org/"
   },
   "https://superchaintokens.xyz/optimism.json": {
@@ -12,11 +12,11 @@
     "homepage": "https://www.optimism.io/"
   },
   "https://superchaintokens.xyz/optimism-goerli.json": {
-    "name": "Optimism Goerli (Testnet)",
+    "name": "Optimism Goerli",
     "homepage": "https://www.optimism.io/"
   },
   "https://superchaintokens.xyz/optimism-sepolia.json": {
-    "name": "Optimism Sepolia (Testnet)",
+    "name": "Optimism Sepolia",
     "homepage": "https://www.optimism.io/"
   },
   "https://superchaintokens.xyz/public-goods-network.json": {
@@ -28,11 +28,11 @@
     "homepage": "https://www.ethereum.org/"
   },
   "https://superchaintokens.xyz/ethereum-goerli.json": {
-    "name": "Ethereum Goerli (Testnet)",
+    "name": "Ethereum Goerli",
     "homepage": "https://www.ethereum.org/"
   },
   "https://superchaintokens.xyz/ethereum-sepolia.json": {
-    "name": "Ethereum Sepolia (Testnet)",
+    "name": "Ethereum Sepolia",
     "homepage": "https://www.ethereum.org/"
   }
 }
