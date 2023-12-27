@@ -1,4 +1,8 @@
 {
+  "https://superchaintokens.xyz/all.json": {
+    "name": "All Tokens",
+    "homepage": "https://superchaintokens.xyz/"
+  },
   "https://superchaintokens.xyz/base.json": {
     "name": "Base",
     "homepage": "https://base.org/"
