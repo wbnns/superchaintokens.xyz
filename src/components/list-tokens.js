@@ -47,24 +47,6 @@ const TokenIcon = styled.img`
   background-color: white;
   height: 16px;
 `
-const TokenTagWrapper = styled.div`
-  display: flex;
-  flex-direction: row;
-  @media screen and (max-width: 960px) {
-    display: none;
-  }
-`
-
-const TokenTag = styled.div`
-  font-size: 11px;
-  background-color: rgb(230, 230, 230, 0.4);
-  color: #858585;
-  padding: 0.25rem 0.35rem;
-  margin-right: 0.2rem;
-  border-radius: 4px;
-  height: 14px;
-  width: fit-content;
-`
 
 const TokenAddress = styled.span`
   display: grid;
@@ -72,17 +54,6 @@ const TokenAddress = styled.span`
   grid-gap: 0.5rem;
   height: fit-content;
   align-items: center;
-`
-
-const Chain = styled.span`
-  display: grid;
-  grid-template-columns: auto 16px;
-  grid-gap: 0.5rem;
-  height: fit-content;
-  align-items: center;
-  @media screen and (max-width: 960px) {
-    display: none;
-  }
 `
 
 export const ListItem = memo(function ListItem({ token }) {
@@ -116,7 +87,6 @@ export const ListItem = memo(function ListItem({ token }) {
           </a>
         </span>
       </TokenInfo>
-      <Chain>{lookUpchain(token.chainId)}</Chain>
       <span>{token.symbol}</span>
       <TokenAddress>
         <a style={{ textAlign: 'right' }} href={scannerUrl}>
@@ -194,7 +164,6 @@ export default function Tokens({ tokens }) {
       <TokenWrapper>
         <ListTitle>
           <p className="hide-small">Name</p>
-          <p className="hide-small">Chain</p>
           <p className="hide-small">Symbol</p>
           <p className="hide-small">Address</p>
         </ListTitle>
