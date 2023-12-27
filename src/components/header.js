@@ -79,7 +79,7 @@ export default function Header({ back }) {
           rel="noopener noreferrer"
           href="https://github.com/Uniswap/token-lists#authoring-token-lists"
         >
-          Create a list
+          Add a token
         </a>
 
         <ButtonLink
