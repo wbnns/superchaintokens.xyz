@@ -15,7 +15,7 @@ const StyledCard = styled(Link)`
   text-decoration: none;
   color: #0f0f0f;
   border: 0.75px solid #131313;
-  box-shadow: -8px 8px 0px #d6fdff;
+  box-shadow: -8px 8px 0px #FFE6D6;
 
   @media screen and (max-width: 960px) {
     max-width: initial;
