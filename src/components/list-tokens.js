@@ -91,7 +91,7 @@ export const ListItem = memo(function ListItem({ token }) {
       <span>{token.symbol}</span>
       <TokenAddress>
         <a style={{ textAlign: 'right' }} href={scannerUrl}>
-          {`${tokenAddress?.slice(0, 12)}...${tokenAddress?.slice(36, 42)}`}
+          {`${tokenAddress?.slice(0, 6)}...${tokenAddress?.slice(36, 42)}`}
         </a>
         <CopyHelper toCopy={token.address} />
       </TokenAddress>
