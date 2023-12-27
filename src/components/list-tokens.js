@@ -51,6 +51,7 @@ const TokenIcon = styled.img`
 const TokenAddress = styled.span`
   display: grid;
   grid-template-columns: auto 16px;
+  white-space: nowrap;
   grid-gap: 0.5rem;
   height: fit-content;
   align-items: center;
@@ -90,7 +91,7 @@ export const ListItem = memo(function ListItem({ token }) {
       <span>{token.symbol}</span>
       <TokenAddress>
         <a style={{ textAlign: 'right' }} href={scannerUrl}>
-          {`${tokenAddress?.slice(0, 6)}...${tokenAddress?.slice(38, 42)}`}
+          {`${tokenAddress?.slice(0, 12)}...${tokenAddress?.slice(36, 42)}`}
         </a>
         <CopyHelper toCopy={token.address} />
       </TokenAddress>
