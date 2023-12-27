@@ -82,7 +82,7 @@ export default function Info({ listID, list }) {
           </span>
         </span>
 
-        <Helper>Use this list to integrate tokens into onchain applications</Helper>
+        <Helper>Use this list to integrate tokens into onchain apps</Helper>
 
         <span>
           <small>Last Updated</small>

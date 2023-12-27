@@ -150,7 +150,7 @@ export default function AllLists() {
       <a
         href="https://github.com/wbnns/superchaintokens.xyz/issues/new"
       >
-        <AddButton>+ add a token</AddButton>
+        <AddButton>+ add a network</AddButton>
       </a>
     </StyledAllLists>
   )
