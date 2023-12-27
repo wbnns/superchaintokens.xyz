@@ -72,7 +72,7 @@ export default function Header() {
       <p className="title">A token list registry for the Superchain</p>
 
       <p style={{ fontSize: '20px', lineHeight: '150%' }} className="description" id="why-lists">
-        Superchain Tokens is an open registry of tokens across various networks on the Superchain
+        Superchain Tokens is an open registry of tokens connected to the Superchain
       </p>
       <HoverLink target="_blank" rel="noopener noreferrer" href="https://uniswap.org/blog/token-lists/">
         {'->'} Why token lists?
