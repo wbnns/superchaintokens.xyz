@@ -74,18 +74,8 @@ export default function Header() {
       <p style={{ fontSize: '20px', lineHeight: '150%' }} className="description" id="why-lists">
         Superchain Tokens is an open registry of tokens connected to the Superchain
       </p>
-      <HoverLink target="_blank" rel="noopener noreferrer" href="https://uniswap.org/blog/token-lists/">
-        {'->'} Why token lists?
-      </HoverLink>
-      <HoverLink
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://github.com/Uniswap/token-lists#authoring-token-lists"
-      >
-        {'->'} Make your own
-      </HoverLink>
-      <HoverLink target="_blank" rel="noopener noreferrer" href="http://community.tokenlists.org/">
-        {'->'} Community
+      <HoverLink target="_blank" href="https://github.com/wbnns/superchaintokens.xyz/issues/new">
+        {'->'} Add a token
       </HoverLink>
     </Hero>
   )
