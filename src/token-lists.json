@@ -1,8 +1,4 @@
 {
-  "https://superchaintokens.xyz/all.json": {
-    "name": "All Tokens",
-    "homepage": "https://superchaintokens.xyz/"
-  },
   "https://superchaintokens.xyz/base.json": {
     "name": "Base",
     "homepage": "https://base.org/"
@@ -38,5 +34,9 @@
   "https://superchaintokens.xyz/ethereum-sepolia.json": {
     "name": "Ethereum Sepolia",
     "homepage": "https://ethereum.org/"
-  }
+  },
+  "https://superchaintokens.xyz/all.json": {
+    "name": "All Superchain Tokens",
+    "homepage": "https://superchaintokens.xyz/"
+  },
 }
