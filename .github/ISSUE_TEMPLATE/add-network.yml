@@ -1,0 +1,54 @@
+name: Add a network
+description: Add a network to superchaintokens.xyz
+title: "[Add Network]: "
+labels: add-network
+assignees:
+  - wbnns
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to add a new network!
+  - type: textarea
+    id: network-name
+    attributes:
+      label: Name
+      description: What is the name of the network?
+      placeholder: e.g. Base
+    validations:
+      required: true
+  - type: input
+    id: network-id
+    attributes:
+      label: Chain ID
+      description: What's its chain ID?
+      placeholder: e.g. 8453
+    validations:
+      required: true
+  - type: input
+    id: network-logo
+    attributes:
+      label: Logo
+      description: Link to logo (SVG or transparent PNG)
+      placeholder: e.g. https://github.com/base-org/brand-kit/raw/main/logo/in-product/Base_Network_Logo.svg
+    validations:
+      required: true
+  - type: dropdown
+    id: network-op-stack
+    attributes:
+      label: OP Stack
+      description: Is this network built on the OP Stack?
+      options:
+        - No
+        - Yes
+      default: 0
+  - type: dropdown
+    id: network-testnet
+    attributes:
+      label: Testnet
+      description: Is this a test network?
+      options:
+        - No
+        - Yes
+    validations:
+      required: true

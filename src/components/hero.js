@@ -74,7 +74,7 @@ export default function Header() {
       <p style={{ fontSize: '20px', lineHeight: '150%' }} className="description" id="why-lists">
         Superchain Tokens is an open registry of tokens on networks connected to the Superchain
       </p>
-      <HoverLink target="_blank" href="https://github.com/wbnns/superchaintokens.xyz/issues/new?template=add-token.yml">
+      <HoverLink href="https://github.com/wbnns/superchaintokens.xyz/issues/new?template=add-token.yml">
         {'->'} Add a token
       </HoverLink>
     </Hero>
