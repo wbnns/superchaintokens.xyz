@@ -22,7 +22,8 @@
   "https://superchaintokens.xyz/public-goods-network.json": {
     "name": "Public Goods Network",
     "homepage": "https://publicgoods.network/"
-  },
+  }
+  /*
   "https://superchaintokens.xyz/ethereum.json": {
     "name": "Ethereum",
     "homepage": "https://ethereum.org/"
@@ -39,4 +40,5 @@
     "name": "All Superchain Tokens",
     "homepage": "https://superchaintokens.xyz/"
   }
+  */
 }
