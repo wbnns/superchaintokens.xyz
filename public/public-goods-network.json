@@ -9,7 +9,7 @@
       "name": "Dai Stablecoin",
       "symbol": "DAI",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/DAI/logo.svg",
+      "logoURI": "https://superchaintokens.xyz/data/DAI/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
@@ -22,7 +22,7 @@
       "name": "Tether USD",
       "symbol": "USDT",
       "decimals": 6,
-      "logoURI": "https://ethereum-optimism.github.io/data/USDT/logo.png",
+      "logoURI": "https://superchaintokens.xyz/data/USDT/logo.png",
       "extensions": {
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",

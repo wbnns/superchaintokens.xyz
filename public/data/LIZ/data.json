@@ -1,0 +1,13 @@
+{
+  "name": "Theranos Coin",
+  "symbol": "LIZ",
+  "decimals": 18,
+  "tokens": {
+    "ethereum": {
+      "address": "0x102e941b77bcaa7e35d368cafe51ef8f79c8d1ef"
+    },
+    "optimism": {
+      "address": "0x3bB4445D30AC020a84c1b5A8A2C6248ebC9779D0"
+    }
+  }
+}

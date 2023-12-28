@@ -9,7 +9,7 @@
       "name": "Ether",
       "symbol": "ETH",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/ETH/logo.svg",
+      "logoURI": "https://superchaintokens.xyz/data/ETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
         "opListId": "default",
@@ -22,7 +22,7 @@
       "name": "OptimismUselessToken-Bridged",
       "symbol": "OUTb",
       "decimals": 18,
-      "logoURI": "https://ethereum-optimism.github.io/data/OUTb/logo.svg",
+      "logoURI": "https://superchaintokens.xyz/data/OUTb/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0xFBb0621E0B23b5478B630BD55a5f21f67730B0F1",
         "opListId": "extended",
