@@ -40,11 +40,6 @@ const Hero = styled.section`
     font-family: 'MatterSQ-SemiBold';
   }
 
-  .uniswap {
-    color: #ff007a;
-    font-family: 'MatterSQ-Regular';
-  }
-
   @media screen and (max-width: 960px) {
     position: relative;
     top: initial;

@@ -1,18 +1,8 @@
 # Superchain Tokens
 
-[TODO]
-
----
-
 Use `yarn` and `yarn start` to develop.
 
-
 ## Superchain Token List
-
-[FIXME]
-
-[![Tests](https://github.com/wbnns/superchaintokens.xyz/workflows/Tests/badge.svg)](https://github.com/wbnns/superchaintokens.xyz/actions?query=workflow%3ATests)
-[![npm](https://img.shields.io/npm/v/@wbnns/superchaintokens)](https://unpkg.com/@wbnns/superchaintokens@latest/)
 
 This package includes a JSON schema for [superchaintokens.xyz](https://superchaintokens.xyz), and TypeScript utilities for working with lists from [superchaintokens.xyz](https://superchaintokens.xyz).
 
@@ -24,50 +14,8 @@ The JSON schema represents the technical specification for a token list which ca
 
 Anyone can create and maintain a token list, as long as they follow the specification.
 
-Specifically an instance of a token list is a [JSON](https://www.json.org/json-en.html) blob that contains a list of 
-[ERC20](https://github.com/ethereum/eips/issues/20) token metadata for use in dApp user interfaces.
-Tokens on token lists, and token lists themselves, are tagged so that users can easily find tokens.
-
-## Validating token lists
-
-This package does not include code for token list validation. You can easily do this by including a library such as 
-[ajv](https://ajv.js.org/) to perform the validation against the JSON schema. The schema is exported from the package
-for ease of use.
-
-[FIXME]
-
-```typescript
-
-import { schema } from '@wbnns/superchaintokens'
-import Ajv from 'ajv'
-import addFormats from 'ajv-formats'
-import fetch from 'node-fetch'
-
-const ARBITRUM_LIST = 'https://bridge.arbitrum.io/token-list-42161.json'
-
-async function validate() {
-  const ajv = new Ajv({ allErrors: true, verbose: true })
-  addFormats(ajv)
-  const validator = ajv.compile(schema);
-  const response = await fetch(ARBITRUM_LIST)
-  const data = await response.json()
-  const valid = validator(data)
-  if (valid) {
-    return valid
-  }
-  if (validator.errors) {
-    throw validator.errors.map(error => {
-      delete error.data
-      return error
-    })
-  }
-}
-
-validate()
-  .then(console.log("Valid List."))
-  .catch(console.error)
-
-```
+Specifically an instance of a token list is a [JSON](https://www.json.org/json-en.html) blob that contains a list of
+[ERC20](https://github.com/ethereum/eips/issues/20) token metadata for use in onchain app user interfaces.
 
 ## Authoring token lists
 
@@ -84,25 +32,6 @@ the pattern `*.tokenlist.json` should
 the JSON schema for the [supported text editors](https://www.schemastore.org/json/#editors).
 
 In order for your token list to be able to be used, it must pass all JSON schema validation.
-
-### Automated
-
-If you want to automate token listing, e.g. by pulling from a smart contract, or other sources, you can use this
-npm package to take advantage of the JSON schema for validation and the TypeScript types.
-Otherwise, you are simply working with JSON. All the usual tools apply, e.g.:
-
-```typescript
-import { TokenList, schema } from '@wbnns/superchaintokens'
-
-// generate your token list however you like.
-const myList: TokenList = generateMyTokenList();
-
-// use a tool like `ajv` to validate your generated token list
-validateMyTokenList(myList, schema);
-
-// print the resulting JSON to stdout
-process.stdout.write(JSON.stringify(myList));
-```
 
 ## Semantic versioning
 
@@ -122,20 +51,4 @@ of the diff of list updates. List updates may still be diffed in the client dApp
 
 ## Deploying your list
 
-Once you have authored the list, you can make it available at any URI. Prefer pinning your list to IPFS
-(e.g. via [pinata.cloud](https://pinata.cloud)) and referencing the list by an ENS name that resolves to the
-[contenthash](https://eips.ethereum.org/EIPS/eip-1577).
-
-If hosted on HTTPS, make sure the endpoint is configured to send an access-control-allow-origin header to avoid CORS errors.
-
-### Linking an ENS name to the list
-
-An ENS name can be assigned to an IPFS hash via the [contenthash](https://eips.ethereum.org/EIPS/eip-1577) text record.
-This is the preferred way of referencing your list.
-
-## Examples
-
-You can find a simple example of a token list in [test/schema/example.tokenlist.json](test/schema/example.tokenlist.json).
-
- snapshot of the Uniswap default list encoded as a token list is found in [test/schema/bigexample.tokenlist.json](test/schema/bigexample.tokenlist.json).
-
+Once you have authored the list, you can make it available at any URI. If hosted on HTTPS, make sure the endpoint is configured to send an access-control-allow-origin header to avoid CORS errors.
