@@ -57,6 +57,7 @@ body:
       options:
         - Base
         - Base Goerli
+        - Base Sepolia
         - Optimism
         - Optimism Goerli
         - Optimism Sepolia

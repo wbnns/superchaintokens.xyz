@@ -70,8 +70,8 @@ export default function Header({ back }) {
       </Link>
 
       <Nav>
-        <a target="_blank" rel="noopener noreferrer" className="hide-small" href="https://github.com/wbnns/superchaintokens.xyz/discussions">
-          Community
+        <a className="hide-small" href="https://x.com/wbnns">
+          Questions / Feedback
         </a>
         <a
           className="hide-small"
