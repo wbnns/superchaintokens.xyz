@@ -39,8 +39,8 @@ body:
       label: OP Stack
       description: Is this network built on the OP Stack?
       options:
-        - No
-        - Yes
+        - "No"
+        - "Yes"
       default: 0
   - type: dropdown
     id: network-testnet
@@ -48,7 +48,7 @@ body:
       label: Testnet
       description: Is this a test network?
       options:
-        - No
-        - Yes
+        - "No"
+        - "Yes"
     validations:
       required: true
