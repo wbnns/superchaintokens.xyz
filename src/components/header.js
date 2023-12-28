@@ -70,9 +70,6 @@ export default function Header({ back }) {
       </Link>
 
       <Nav>
-        <a className="hide-small" href="https://x.com/wbnns">
-          Questions / Feedback
-        </a>
         <a
           className="hide-small"
           href="https://github.com/wbnns/superchaintokens.xyz/issues/new?template=add-token.yml"
