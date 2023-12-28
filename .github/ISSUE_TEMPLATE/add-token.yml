@@ -1,6 +1,6 @@
 name: Add a token
 description: Add a token to superchaintokens.xyz
-title: "[Add Token]: "
+title: "Add Token: [Insert Symbol]"
 labels: add-token
 assignees:
   - wbnns

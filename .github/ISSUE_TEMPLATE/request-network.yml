@@ -1,6 +1,6 @@
 name: Add a network
 description: Add a network to superchaintokens.xyz
-title: "[Add Network]: "
+title: "Add Network: [Insert Name] "
 labels: add-network
 assignees:
   - wbnns
