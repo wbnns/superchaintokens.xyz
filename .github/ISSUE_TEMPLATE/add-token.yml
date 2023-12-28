@@ -1,0 +1,69 @@
+name: Add a token
+description: Add a token to superchaintokens.xyz
+title: "[Add Token]: "
+labels: add-token
+assignees:
+  - wbnns
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to add a new token!
+  - type: textarea
+    id: token-name
+    attributes:
+      label: Name
+      description: What is the name of the token?
+      placeholder: e.g. USD Coin
+    validations:
+      required: true
+  - type: input
+    id: token-symbol
+    attributes:
+      label: Symbol
+      description: What's its symbol?
+      placeholder: e.g. USDC
+    validations:
+      required: true
+  - type: input
+    id: token-decimals
+    attributes:
+      label: Decimals
+      description: How many decimals does it have?
+      placeholder: e.g. 6
+    validations:
+      required: true
+  - type: input
+    id: token-address
+    attributes:
+      label: Address
+      description: What is its contract address?
+      placeholder: e.g. 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+    validations:
+      required: true
+  - type: input
+    id: token-logo
+    attributes:
+      label: Logo
+      description: Link to logo (SVG or transparent PNG)
+      placeholder: e.g. https://cryptologos.cc/logos/usd-coin-usdc-logo.svg
+    validations:
+      required: true
+  - type: dropdown
+    id: token-network
+    attributes:
+      label: Network
+      description: What network in the Superchain is the token deployed on?
+      options:
+        - Base
+        - Base Goerli
+        - Optimism
+        - Optimism Goerli
+        - Optimism Sepolia
+        - Public Goods Network
+        - Ethereum
+        - Ethereum Goerli
+        - Ethereum Sepolia
+      default: 0
+    validations:
+      required: true
