@@ -12,7 +12,7 @@ The JSON schema represents the technical specification for a token list which ca
 
 [Superchaintokens.xyz](https//superchaintokens.xyz) provides a specification for lists of token metadata (e.g. address, decimals, ...) that can be used by any onchain app interfaces that needs one or more lists of tokens.
 
-Anyone can create and maintain a token list, as long as they follow the specification.
+Anyone can create and maintain a token list, as long as they are for a network on the Superchain and follow the specification.
 
 Specifically an instance of a token list is a [JSON](https://www.json.org/json-en.html) blob that contains a list of
 [ERC20](https://github.com/ethereum/eips/issues/20) token metadata for use in onchain app user interfaces.
