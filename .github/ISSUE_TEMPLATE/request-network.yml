@@ -42,6 +42,8 @@ body:
         - "No"
         - "Yes"
       default: 0
+    validations:
+      required: true
   - type: dropdown
     id: network-testnet
     attributes:
@@ -50,5 +52,6 @@ body:
       options:
         - "No"
         - "Yes"
+      default: 0
     validations:
       required: true
