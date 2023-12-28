@@ -23,22 +23,4 @@
     "name": "Public Goods Network",
     "homepage": "https://publicgoods.network/"
   }
-  /*
-  "https://superchaintokens.xyz/ethereum.json": {
-    "name": "Ethereum",
-    "homepage": "https://ethereum.org/"
-  },
-  "https://superchaintokens.xyz/ethereum-goerli.json": {
-    "name": "Ethereum Goerli",
-    "homepage": "https://ethereum.org/"
-  },
-  "https://superchaintokens.xyz/ethereum-sepolia.json": {
-    "name": "Ethereum Sepolia",
-    "homepage": "https://ethereum.org/"
-  },
-  "https://superchaintokens.xyz/all.json": {
-    "name": "All Superchain Tokens",
-    "homepage": "https://superchaintokens.xyz/"
-  }
-  */
 }
