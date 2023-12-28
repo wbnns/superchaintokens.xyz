@@ -75,17 +75,13 @@ export default function Header({ back }) {
         </a>
         <a
           className="hide-small"
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/Uniswap/token-lists#authoring-token-lists"
+          href="https://github.com/wbnns/superchaintokens.xyz/issues/new?template=add-token.yml"
         >
           Add a token
         </a>
 
         <ButtonLink
           className="button"
-          target="_blank"
-          rel="noopener noreferrer"
           href="https://github.com/wbnns/superchaintokens.xyz/"
         >
           <img
