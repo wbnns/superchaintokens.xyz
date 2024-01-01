@@ -1,0 +1,10 @@
+{
+  "name": "Magicaltux",
+  "symbol": "TUX",
+  "decimals": 18,
+  "tokens": {
+    "optimism": {
+      "address": "0x17aabf6838a6303fc6e9c5a227dc1eb6d95c829a"
+    }
+  }
+}
