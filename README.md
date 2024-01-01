@@ -2,6 +2,10 @@
 
 Use `yarn` and `yarn start` to develop.
 
+Please note that by adding a token to the list we aren’t making any claims about
+the token itself; tokens are not reviewed for their quality, merits, or
+soundness as investments.
+
 ## Superchain Token List
 
 This package includes a JSON schema for [superchaintokens.xyz](https://superchaintokens.xyz), and TypeScript utilities for working with lists from [superchaintokens.xyz](https://superchaintokens.xyz).
