@@ -966,6 +966,11 @@
       "symbol": "TUX",
       "decimals": 18,
       "logoURI": "https://superchaintokens.xyz/data/TUX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TUX"
+      }
     },
     {
       "chainId": 10,
