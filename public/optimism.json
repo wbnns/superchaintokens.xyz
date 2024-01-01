@@ -965,7 +965,7 @@
       "name": "Magicaltux",
       "symbol": "TUX",
       "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/TUX/logo.svg",
+      "logoURI": "https://superchaintokens.xyz/data/TUX/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
