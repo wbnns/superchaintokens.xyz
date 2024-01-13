@@ -1,8 +1,22 @@
 {
-  "name": "Optimism Goerli",
+  "name": "Superchain Token List",
   "logoURI": "https://superchaintokens.xyz/optimism.svg",
-  "timestamp": "2023-12-26T01:55:07.264088",
+  "keywords": ["scaling", "layer2", "infrastructure"],
+  "timestamp": "2024-01-09T00:22:06.495Z",
   "tokens": [
+    {
+      "chainId": 420,
+      "address": "0xfb0a8CF5B2302f880aA26461C78A8DC20A02aE25",
+      "name": "AltInsureToken",
+      "symbol": "INSURE",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/INSURE/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "INSURE"
+      }
+    },
     {
       "chainId": 420,
       "address": "0x7E07E15D2a87A24492740D16f5bdF58c16db0c4E",
@@ -14,6 +28,19 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "BridgedUSDC"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0xdc2CC710e42857672E7907CF474a69B63B93089f",
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/LINK/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "LINK"
       }
     },
     {
@@ -122,41 +149,15 @@
     },
     {
       "chainId": 420,
-      "address": "0xfb0a8CF5B2302f880aA26461C78A8DC20A02aE25",
-      "name": "AltInsureToken",
-      "symbol": "INSURE",
+      "address": "0x4A36562d5D7074f8EE664922b320e066e67C2a24",
+      "name": "MetaPoolETH",
+      "symbol": "mpETH",
       "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/INSURE/logo.svg",
+      "logoURI": "https://superchaintokens.xyz/data/mpETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
-        "opTokenId": "INSURE"
-      }
-    },
-    {
-      "chainId": 420,
-      "address": "0xE265FC71d45fd791c9ebf3EE0a53FBB220Eb8f75",
-      "name": "TEST Lido DAO Token",
-      "symbol": "TESTLDO",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/LDO/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "LDO"
-      }
-    },
-    {
-      "chainId": 420,
-      "address": "0xdc2CC710e42857672E7907CF474a69B63B93089f",
-      "name": "Chainlink",
-      "symbol": "LINK",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/LINK/logo.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "LINK"
+        "opTokenId": "mpETH"
       }
     },
     {
@@ -187,15 +188,15 @@
     },
     {
       "chainId": 420,
-      "address": "0x4A36562d5D7074f8EE664922b320e066e67C2a24",
-      "name": "MetaPoolETH",
-      "symbol": "mpETH",
+      "address": "0x9c4d82Ff5d1562287000bAE8fFCDbDDa475bdA2A",
+      "name": "OpenX Optimism",
+      "symbol": "wOpenX",
       "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/mpETH/logo.svg",
+      "logoURI": "https://superchaintokens.xyz/data/wOpenX/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
-        "opTokenId": "mpETH"
+        "opTokenId": "wOpenX"
       }
     },
     {
@@ -316,14 +317,15 @@
     },
     {
       "chainId": 420,
-      "address": "0xe05606174bac4A6364B31bd0eCA4bf4dD368f8C6",
-      "name": "USD Coin",
-      "symbol": "USDC",
-      "decimals": 6,
-      "logoURI": "https://superchaintokens.xyz/data/USDC/logo.png",
+      "address": "0xE265FC71d45fd791c9ebf3EE0a53FBB220Eb8f75",
+      "name": "TEST Lido DAO Token",
+      "symbol": "TESTLDO",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/LDO/logo.svg",
       "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
-        "opTokenId": "USDC"
+        "opTokenId": "LDO"
       }
     },
     {
@@ -341,6 +343,18 @@
     },
     {
       "chainId": 420,
+      "address": "0xe05606174bac4A6364B31bd0eCA4bf4dD368f8C6",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://superchaintokens.xyz/data/USDC/logo.png",
+      "extensions": {
+        "opListId": "default",
+        "opTokenId": "USDC"
+      }
+    },
+    {
+      "chainId": 420,
       "address": "0x3e52b5f840eafD79394c6359E93Bf3FfdAE89ee4",
       "name": "veKwenta",
       "symbol": "veKWENTA",
@@ -350,6 +364,19 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "veKWENTA"
+      }
+    },
+    {
+      "chainId": 420,
+      "address": "0x35D48A789904E9b15705977192e5d95e2aF7f1D3",
+      "name": "WAMP",
+      "symbol": "WMP",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/WMP/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "WMP"
       }
     },
     {
@@ -389,37 +416,11 @@
         "opListId": "default",
         "opTokenId": "WETH"
       }
-    },
-    {
-      "chainId": 420,
-      "address": "0x35D48A789904E9b15705977192e5d95e2aF7f1D3",
-      "name": "WAMP",
-      "symbol": "WMP",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/WMP/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "WMP"
-      }
-    },
-    {
-      "chainId": 420,
-      "address": "0x9c4d82Ff5d1562287000bAE8fFCDbDDa475bdA2A",
-      "name": "OpenX Optimism",
-      "symbol": "wOpenX",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/wOpenX/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "wOpenX"
-      }
     }
   ],
   "version": {
-    "major": 9,
-    "minor": 0,
-    "patch": 21
+    "major": 0,
+    "minor": 2,
+    "patch": 0
   }
 }

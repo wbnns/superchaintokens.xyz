@@ -1,13 +1,22 @@
 {
-  "name": "Optimism",
+  "name": "Superchain Token List",
   "logoURI": "https://superchaintokens.xyz/optimism.svg",
-  "keywords": [
-    "scaling",
-    "layer2",
-    "infrastructure"
-  ],
-  "timestamp": "2023-12-26T01:55:07.264088",
+  "keywords": ["scaling", "layer2", "infrastructure"],
+  "timestamp": "2024-01-09T00:22:06.495Z",
   "tokens": [
+    {
+      "chainId": 10,
+      "address": "0xD1917629B3E6A72E6772Aab5dBe58Eb7FA3C2F33",
+      "name": "0x Protocol Token",
+      "symbol": "ZRX",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/ZRX/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "ZRX"
+      }
+    },
     {
       "chainId": 10,
       "address": "0xe0BB0D3DE8c10976511e5030cA403dBf4c25165B",
@@ -49,19 +58,6 @@
     },
     {
       "chainId": 10,
-      "address": "0x764ad60e1b81f6cacfec1a2926393d688d4493e6",
-      "name": "AladdinCRV",
-      "symbol": "aCRV",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/aCRV/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "aCRV"
-      }
-    },
-    {
-      "chainId": 10,
       "address": "0xff733b2a3557a7ed6697007ab5d11b79fdd1b76b",
       "name": "Across Protocol Token",
       "symbol": "ACX",
@@ -83,6 +79,19 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "AELIN"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x764ad60e1b81f6cacfec1a2926393d688d4493e6",
+      "name": "AladdinCRV",
+      "symbol": "aCRV",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/aCRV/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "aCRV"
       }
     },
     {
@@ -163,6 +172,19 @@
     },
     {
       "chainId": 10,
+      "address": "0x3e7eF8f50246f725885102E8238CBba33F276747",
+      "name": "BarnBridge Governance Token",
+      "symbol": "BOND",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/BOND/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BOND"
+      }
+    },
+    {
+      "chainId": 10,
       "address": "0xDb9888b842408B0b8eFa1f5477bD9F351754999E",
       "name": "BAXagent Coin",
       "symbol": "BAXA",
@@ -202,19 +224,6 @@
     },
     {
       "chainId": 10,
-      "address": "0x8a6039fc7a479928b1d73f88040362e9c50db275",
-      "name": "HarryPotterObamaSonic10Inu",
-      "symbol": "BITCOIN",
-      "decimals": 8,
-      "logoURI": "https://superchaintokens.xyz/data/BITCOIN/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "BITCOIN"
-      }
-    },
-    {
-      "chainId": 10,
       "address": "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B",
       "name": "BOB Token",
       "symbol": "BOB",
@@ -223,19 +232,6 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "BOB"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x3e7eF8f50246f725885102E8238CBba33F276747",
-      "name": "BarnBridge Governance Token",
-      "symbol": "BOND",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/BOND/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "BOND"
       }
     },
     {
@@ -279,15 +275,28 @@
     },
     {
       "chainId": 10,
-      "address": "0xaddb6a0412de1ba0f936dcaeb8aaa24578dcf3b2",
-      "name": "Coinbase Wrapped Staked ETH",
-      "symbol": "cbETH",
+      "address": "0xEc6adef5E1006bb305bB1975333e8fc4071295bf",
+      "name": "Cartesi Token",
+      "symbol": "CTSI",
       "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/cbETH/logo.svg",
+      "logoURI": "https://superchaintokens.xyz/data/CTSI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "CTSI"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6",
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/LINK/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
-        "opTokenId": "cbETH"
+        "opTokenId": "LINK"
       }
     },
     {
@@ -305,15 +314,15 @@
     },
     {
       "chainId": 10,
-      "address": "0x629c2fd5d5f432357465b59d7832389a89956f0b",
-      "name": "CryptoOracle Collective",
-      "symbol": "COC",
+      "address": "0xaddb6a0412de1ba0f936dcaeb8aaa24578dcf3b2",
+      "name": "Coinbase Wrapped Staked ETH",
+      "symbol": "cbETH",
       "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/COC/logo.svg",
+      "logoURI": "https://superchaintokens.xyz/data/cbETH/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "COC"
+        "opListId": "default",
+        "opTokenId": "cbETH"
       }
     },
     {
@@ -327,6 +336,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "COLLAB"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xE4F27b04cC7729901876B44f4EAA5102EC150265",
+      "name": "CryptoFranc",
+      "symbol": "XCHF",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/XCHF/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "XCHF"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x629c2fd5d5f432357465b59d7832389a89956f0b",
+      "name": "CryptoOracle Collective",
+      "symbol": "COC",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/COC/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "COC"
       }
     },
     {
@@ -357,32 +392,6 @@
     },
     {
       "chainId": 10,
-      "address": "0xEc6adef5E1006bb305bB1975333e8fc4071295bf",
-      "name": "Cartesi Token",
-      "symbol": "CTSI",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/CTSI/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "CTSI"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x03e5b5930f3a42b56af4a982b10e60957bdd2f61",
-      "name": "Prime",
-      "symbol": "D2D",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/D2D/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "D2D"
-      }
-    },
-    {
-      "chainId": 10,
       "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
       "name": "Dai Stablecoin",
       "symbol": "DAI",
@@ -392,6 +401,32 @@
         "optimismBridgeAddress": "0x467194771dAe2967Aef3ECbEDD3Bf9a310C76C65",
         "opListId": "default",
         "opTokenId": "DAI"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x01B8b6384298D4848E3BE63D4C9D17830EeE488A",
+      "name": "DAOhaus Token on Optimism",
+      "symbol": "HAUS",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/HAUS/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "HAUS"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x7113370218f31764C1B6353BDF6004d86fF6B9cc",
+      "name": "Decentralized USD",
+      "symbol": "USDD",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/USDD/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "USDD"
       }
     },
     {
@@ -418,6 +453,19 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "DF"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xbfD291DA8A403DAAF7e5E9DC1ec0aCEaCd4848B9",
+      "name": "dForce USD",
+      "symbol": "USX",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/USX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0xc76cbFbAfD41761279E3EDb23Fd831Ccb74D5D67",
+        "opListId": "extended",
+        "opTokenId": "USX"
       }
     },
     {
@@ -460,19 +508,6 @@
     },
     {
       "chainId": 10,
-      "address": "0x0e49ca6ea763190084c846d3fc18f28bc2ac689a",
-      "name": "Unit protocol",
-      "symbol": "DUCK",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/DUCK/logo.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "DUCK"
-      }
-    },
-    {
-      "chainId": 10,
       "address": "0xe7BC9b3A936F122f08AAC3b1fac3C3eC29A78874",
       "name": "Eco",
       "symbol": "ECO",
@@ -482,32 +517,6 @@
         "optimismBridgeAddress": "0xAa029BbdC947F5205fBa0F3C11b592420B58f824",
         "opListId": "extended",
         "opTokenId": "ECO"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x65559aA14915a70190438eF90104769e5E890A00",
-      "name": "Ethereum Name Service",
-      "symbol": "ENS",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/ENS/logo.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "ENS"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x76c37F9949e05b37C8373d155C1Fef46a6858481",
-      "name": "Equilibria Pendle",
-      "symbol": "ePendle",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/ePENDLE/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "ePENDLE"
       }
     },
     {
@@ -525,19 +534,6 @@
     },
     {
       "chainId": 10,
-      "address": "0xaf3A6f67Af1624d3878A8d30b09FAe7915DcA2a0",
-      "name": "Equilibria Token",
-      "symbol": "EQB",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/EQB/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "EQB"
-      }
-    },
-    {
-      "chainId": 10,
       "address": "0x81ab7e0d570b01411fcc4afd3d50ec8c241cb74b",
       "name": "Equalizer",
       "symbol": "EQZ",
@@ -547,6 +543,32 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "EQZ"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x76c37F9949e05b37C8373d155C1Fef46a6858481",
+      "name": "Equilibria Pendle",
+      "symbol": "ePendle",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/ePENDLE/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ePENDLE"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xaf3A6f67Af1624d3878A8d30b09FAe7915DcA2a0",
+      "name": "Equilibria Token",
+      "symbol": "EQB",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/EQB/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "EQB"
       }
     },
     {
@@ -577,15 +599,15 @@
     },
     {
       "chainId": 10,
-      "address": "0xD8737CA46aa6285dE7B8777a8e3db232911baD41",
-      "name": "StaFi Token",
-      "symbol": "FIS",
+      "address": "0x65559aA14915a70190438eF90104769e5E890A00",
+      "name": "Ethereum Name Service",
+      "symbol": "ENS",
       "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/FIS/logo.svg",
+      "logoURI": "https://superchaintokens.xyz/data/ENS/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
-        "opTokenId": "FIS"
+        "opTokenId": "ENS"
       }
     },
     {
@@ -616,15 +638,26 @@
     },
     {
       "chainId": 10,
-      "address": "0xF1a0DA3367BC7aa04F8D94BA57B862ff37CeD174",
-      "name": "ShapeShift FOX",
-      "symbol": "FOX",
+      "address": "0x2E3D870790dC77A83DD1d18184Acc7439A53f475",
+      "name": "FRAX",
+      "symbol": "FRAX",
       "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/FOX/logo.svg",
+      "logoURI": "https://superchaintokens.xyz/data/FRAX/logo.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
-        "opTokenId": "FOX"
+        "opTokenId": "FRAX"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x6806411765Af15Bddd26f8f544A34cC40cb9838B",
+      "name": "Frax Ether",
+      "symbol": "frxETH",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/frxETH/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "frxETH"
       }
     },
     {
@@ -653,30 +686,6 @@
     },
     {
       "chainId": 10,
-      "address": "0x2E3D870790dC77A83DD1d18184Acc7439A53f475",
-      "name": "FRAX",
-      "symbol": "FRAX",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/FRAX/logo.svg",
-      "extensions": {
-        "opListId": "extended",
-        "opTokenId": "FRAX"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x6806411765Af15Bddd26f8f544A34cC40cb9838B",
-      "name": "Frax Ether",
-      "symbol": "frxETH",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/frxETH/logo.svg",
-      "extensions": {
-        "opListId": "extended",
-        "opTokenId": "frxETH"
-      }
-    },
-    {
-      "chainId": 10,
       "address": "0x67CCEA5bb16181E7b4109c9c2143c24a1c2205Be",
       "name": "FXS",
       "symbol": "FXS",
@@ -689,41 +698,15 @@
     },
     {
       "chainId": 10,
-      "address": "0x528CDc92eAB044E1E39FE43B9514bfdAB4412B98",
-      "name": "Giveth Token",
-      "symbol": "GIV",
+      "address": "0x117cFd9060525452db4A34d51c0b3b7599087f05",
+      "name": "Geyser",
+      "symbol": "GYSR",
       "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/GIV/logo.svg",
+      "logoURI": "https://superchaintokens.xyz/data/GYSR/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
-        "opTokenId": "GIV"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0xEcF46257ed31c329F204Eb43E254C609dee143B3",
-      "name": "Rigo Token",
-      "symbol": "GRG",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/GRG/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "GRG"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0xc871cCf95024eFa2CbcE69B5B775D2a1DcF49c1B",
-      "name": "ValleyDAO Token",
-      "symbol": "GROW",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/GROW/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "GROW"
+        "opTokenId": "GYSR"
       }
     },
     {
@@ -741,6 +724,19 @@
     },
     {
       "chainId": 10,
+      "address": "0x528CDc92eAB044E1E39FE43B9514bfdAB4412B98",
+      "name": "Giveth Token",
+      "symbol": "GIV",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/GIV/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GIV"
+      }
+    },
+    {
+      "chainId": 10,
       "address": "0x589d35656641d6aB57A545F08cf473eCD9B6D5F7",
       "name": "GMO JPY",
       "symbol": "GYEN",
@@ -750,19 +746,6 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "GYEN"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x117cFd9060525452db4A34d51c0b3b7599087f05",
-      "name": "Geyser",
-      "symbol": "GYSR",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/GYSR/logo.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "GYSR"
       }
     },
     {
@@ -806,15 +789,15 @@
     },
     {
       "chainId": 10,
-      "address": "0x01B8b6384298D4848E3BE63D4C9D17830EeE488A",
-      "name": "DAOhaus Token on Optimism",
-      "symbol": "HAUS",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/HAUS/logo.png",
+      "address": "0x8a6039fc7a479928b1d73f88040362e9c50db275",
+      "name": "HarryPotterObamaSonic10Inu",
+      "symbol": "BITCOIN",
+      "decimals": 8,
+      "logoURI": "https://superchaintokens.xyz/data/BITCOIN/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
-        "opTokenId": "HAUS"
+        "opTokenId": "BITCOIN"
       }
     },
     {
@@ -844,19 +827,6 @@
     },
     {
       "chainId": 10,
-      "address": "0xa00E3A3511aAC35cA78530c85007AFCd31753819",
-      "name": "Kyber Network Crystal v2",
-      "symbol": "KNC",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/KNC/logo.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "KNC"
-      }
-    },
-    {
-      "chainId": 10,
       "address": "0xf98dcd95217e15e05d8638da4c91125e59590b07",
       "name": "Kromatika",
       "symbol": "KROM",
@@ -870,6 +840,19 @@
     },
     {
       "chainId": 10,
+      "address": "0xa00E3A3511aAC35cA78530c85007AFCd31753819",
+      "name": "Kyber Network Crystal v2",
+      "symbol": "KNC",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/KNC/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "KNC"
+      }
+    },
+    {
+      "chainId": 10,
       "address": "0xFdb794692724153d1488CcdBE0C56c252596735F",
       "name": "Lido DAO Token",
       "symbol": "LDO",
@@ -879,32 +862,6 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "LDO"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6",
-      "name": "Chainlink",
-      "symbol": "LINK",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/LINK/logo.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "LINK"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x3bB4445D30AC020a84c1b5A8A2C6248ebC9779D0",
-      "name": "Theranos Coin",
-      "symbol": "LIZ",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/LIZ/logo.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "LIZ"
       }
     },
     {
@@ -974,6 +931,19 @@
     },
     {
       "chainId": 10,
+      "address": "0xab7badef82e9fe11f6f33f87bc9bc2aa27f2fcb5",
+      "name": "Maker",
+      "symbol": "MKR",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/MKR/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MKR"
+      }
+    },
+    {
+      "chainId": 10,
       "address": "0x3390108E913824B8eaD638444cc52B9aBdF63798",
       "name": "Mask Network",
       "symbol": "MASK",
@@ -987,6 +957,45 @@
     },
     {
       "chainId": 10,
+      "address": "0x929b939f8524c3be977af57a4a0ad3fb1e374b50",
+      "name": "Meta",
+      "symbol": "MTA",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/MTA/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MTA"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x3E5D9D8a63CC8a88748f229999CF59487e90721e",
+      "name": "MetalSwap",
+      "symbol": "XMT",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/XMT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "XMT"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x819845b60a192167ed1139040b4f8eca31834f27",
+      "name": "MetaPoolETH",
+      "symbol": "mpETH",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/mpETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "mpETH"
+      }
+    },
+    {
+      "chainId": 10,
       "address": "0x9a2e53158e12bc09270af10c16a466cb2b5d7836",
       "name": "Metronome2",
       "symbol": "MET",
@@ -996,19 +1005,6 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MET"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0xab7badef82e9fe11f6f33f87bc9bc2aa27f2fcb5",
-      "name": "Maker",
-      "symbol": "MKR",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/MKR/logo.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "MKR"
       }
     },
     {
@@ -1039,32 +1035,6 @@
     },
     {
       "chainId": 10,
-      "address": "0x819845b60a192167ed1139040b4f8eca31834f27",
-      "name": "MetaPoolETH",
-      "symbol": "mpETH",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/mpETH/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "mpETH"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x929b939f8524c3be977af57a4a0ad3fb1e374b50",
-      "name": "Meta",
-      "symbol": "MTA",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/MTA/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "MTA"
-      }
-    },
-    {
-      "chainId": 10,
       "address": "0x8637725aDa78db0674a679CeA2A5e0A0869EF4A1",
       "name": "NFTEarthOFT",
       "symbol": "NFTE",
@@ -1090,6 +1060,19 @@
     },
     {
       "chainId": 10,
+      "address": "0x96bBD55479e9923512dcc95Eb7Df5edDe6FB9874",
+      "name": "OpenX Optimism",
+      "symbol": "wOpenX",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/wOpenX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "wOpenX"
+      }
+    },
+    {
+      "chainId": 10,
       "address": "0x4200000000000000000000000000000000000042",
       "name": "Optimism",
       "symbol": "OP",
@@ -1098,6 +1081,19 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "OP"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x217D47011b23BB961eB6D93cA9945B7501a5BB11",
+      "name": "Optimistic Thales Token",
+      "symbol": "THALES",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/THALES/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "THALES"
       }
     },
     {
@@ -1111,6 +1107,19 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "PAPER"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xd3594E879B358F430E20F82bea61e83562d49D48",
+      "name": "ParaSwap",
+      "symbol": "PSP",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/PSP/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "PSP"
       }
     },
     {
@@ -1206,15 +1215,15 @@
     },
     {
       "chainId": 10,
-      "address": "0xd3594E879B358F430E20F82bea61e83562d49D48",
-      "name": "ParaSwap",
-      "symbol": "PSP",
+      "address": "0x03e5b5930f3a42b56af4a982b10e60957bdd2f61",
+      "name": "Prime",
+      "symbol": "D2D",
       "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/PSP/logo.svg",
+      "logoURI": "https://superchaintokens.xyz/data/D2D/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
-        "opTokenId": "PSP"
+        "opTokenId": "D2D"
       }
     },
     {
@@ -1232,28 +1241,15 @@
     },
     {
       "chainId": 10,
-      "address": "0x9bcef72be871e61ed4fbbc7630889bee758eb81d",
-      "name": "Rocket Pool ETH",
-      "symbol": "rETH",
+      "address": "0xb548f63d4405466b36c0c0ac3318a22fdcec711a",
+      "name": "Rari Governance Token",
+      "symbol": "RGT",
       "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/rETH/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "rETH"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x6c2f7b6110a37b3B0fbdd811876be368df02E8B0",
-      "name": "StaFi Staked ETH",
-      "symbol": "rETH",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/rETH_StaFi/logo.svg",
+      "logoURI": "https://superchaintokens.xyz/data/RGT/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
-        "opTokenId": "rETH_StaFi"
+        "opTokenId": "RGT"
       }
     },
     {
@@ -1271,15 +1267,28 @@
     },
     {
       "chainId": 10,
-      "address": "0xb548f63d4405466b36c0c0ac3318a22fdcec711a",
-      "name": "Rari Governance Token",
-      "symbol": "RGT",
+      "address": "0xEcF46257ed31c329F204Eb43E254C609dee143B3",
+      "name": "Rigo Token",
+      "symbol": "GRG",
       "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/RGT/logo.png",
+      "logoURI": "https://superchaintokens.xyz/data/GRG/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
-        "opTokenId": "RGT"
+        "opTokenId": "GRG"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x9bcef72be871e61ed4fbbc7630889bee758eb81d",
+      "name": "Rocket Pool ETH",
+      "symbol": "rETH",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/rETH/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "rETH"
       }
     },
     {
@@ -1293,6 +1302,19 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "RPL"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xAe31207aC34423C41576Ff59BFB4E036150f9cF7",
+      "name": "Saddle DAO",
+      "symbol": "SDL",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/SDL/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SDL"
       }
     },
     {
@@ -1323,18 +1345,6 @@
     },
     {
       "chainId": 10,
-      "address": "0x298B9B95708152ff6968aafd889c6586e9169f1D",
-      "name": "Synthetic Bitcoin",
-      "symbol": "sBTC",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/sBTC/logo.svg",
-      "extensions": {
-        "opListId": "extended",
-        "opTokenId": "sBTC"
-      }
-    },
-    {
-      "chainId": 10,
       "address": "0x61ccfe71d8ee67780320b0d990A02D702d99C271",
       "name": "Scamfari",
       "symbol": "SCM",
@@ -1361,39 +1371,15 @@
     },
     {
       "chainId": 10,
-      "address": "0xAe31207aC34423C41576Ff59BFB4E036150f9cF7",
-      "name": "Saddle DAO",
-      "symbol": "SDL",
+      "address": "0xF1a0DA3367BC7aa04F8D94BA57B862ff37CeD174",
+      "name": "ShapeShift FOX",
+      "symbol": "FOX",
       "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/SDL/logo.svg",
+      "logoURI": "https://superchaintokens.xyz/data/FOX/logo.svg",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
-        "opTokenId": "SDL"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0xE405de8F52ba7559f9df3C368500B6E6ae6Cee49",
-      "name": "Synthetic Ether",
-      "symbol": "sETH",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/sETH/logo.svg",
-      "extensions": {
-        "opListId": "extended",
-        "opTokenId": "sETH"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x484c2D6e3cDd945a8B2DF735e079178C1036578c",
-      "name": "Staked Frax Ether",
-      "symbol": "sfrxETH",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/sfrxETH/logo.svg",
-      "extensions": {
-        "opListId": "extended",
-        "opTokenId": "sfrxETH"
+        "opTokenId": "FOX"
       }
     },
     {
@@ -1407,44 +1393,6 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "SIPHER"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0xc5Db22719A06418028A40A9B5E9A7c02959D0d08",
-      "name": "Synthetic Chainlink",
-      "symbol": "sLINK",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/sLINK/logo.svg",
-      "extensions": {
-        "opListId": "extended",
-        "opTokenId": "sLINK"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x650AF3C15AF43dcB218406d30784416D64Cfb6B2",
-      "name": "Status Network Token",
-      "symbol": "SNT",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/SNT/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "SNT"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
-      "name": "Synthetix",
-      "symbol": "SNX",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/SNX/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x136b1EC699c62b0606854056f02dC7Bb80482d63",
-        "opListId": "default",
-        "opTokenId": "SNX"
       }
     },
     {
@@ -1474,6 +1422,44 @@
     },
     {
       "chainId": 10,
+      "address": "0x6c2f7b6110a37b3B0fbdd811876be368df02E8B0",
+      "name": "StaFi Staked ETH",
+      "symbol": "rETH",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/rETH_StaFi/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "rETH_StaFi"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xD8737CA46aa6285dE7B8777a8e3db232911baD41",
+      "name": "StaFi Token",
+      "symbol": "FIS",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/FIS/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "FIS"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x484c2D6e3cDd945a8B2DF735e079178C1036578c",
+      "name": "Staked Frax Ether",
+      "symbol": "sfrxETH",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/sfrxETH/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "sfrxETH"
+      }
+    },
+    {
+      "chainId": 10,
       "address": "0x0F5d45a7023612e9e244fe84FAc5fCf3740d1492",
       "name": "Staked Lyra",
       "symbol": "stkLYRA",
@@ -1487,6 +1473,19 @@
     },
     {
       "chainId": 10,
+      "address": "0x650AF3C15AF43dcB218406d30784416D64Cfb6B2",
+      "name": "Status Network Token",
+      "symbol": "SNT",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/SNT/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SNT"
+      }
+    },
+    {
+      "chainId": 10,
       "address": "0xef6301da234fc7b0545c6e877d3359fe0b9e50a4",
       "name": "SUKU",
       "symbol": "SUKU",
@@ -1496,18 +1495,6 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "SUKU"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x8c6f28f2F1A3C87F0f938b96d27520d9751ec8d9",
-      "name": "Synthetix USD",
-      "symbol": "sUSD",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/sUSD/logo.svg",
-      "extensions": {
-        "opListId": "default",
-        "opTokenId": "sUSD"
       }
     },
     {
@@ -1538,28 +1525,89 @@
     },
     {
       "chainId": 10,
-      "address": "0x747e42Eb0591547a0ab429B3627816208c734EA7",
-      "name": "Threshold Network Token",
-      "symbol": "T",
+      "address": "0x298B9B95708152ff6968aafd889c6586e9169f1D",
+      "name": "Synthetic Bitcoin",
+      "symbol": "sBTC",
       "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/T/logo.svg",
+      "logoURI": "https://superchaintokens.xyz/data/sBTC/logo.svg",
       "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
-        "opTokenId": "T"
+        "opTokenId": "sBTC"
       }
     },
     {
       "chainId": 10,
-      "address": "0x217D47011b23BB961eB6D93cA9945B7501a5BB11",
-      "name": "Optimistic Thales Token",
-      "symbol": "THALES",
+      "address": "0xc5Db22719A06418028A40A9B5E9A7c02959D0d08",
+      "name": "Synthetic Chainlink",
+      "symbol": "sLINK",
       "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/THALES/logo.png",
+      "logoURI": "https://superchaintokens.xyz/data/sLINK/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "sLINK"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xE405de8F52ba7559f9df3C368500B6E6ae6Cee49",
+      "name": "Synthetic Ether",
+      "symbol": "sETH",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/sETH/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "sETH"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4",
+      "name": "Synthetix",
+      "symbol": "SNX",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/SNX/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x136b1EC699c62b0606854056f02dC7Bb80482d63",
+        "opListId": "default",
+        "opTokenId": "SNX"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x8c6f28f2F1A3C87F0f938b96d27520d9751ec8d9",
+      "name": "Synthetix USD",
+      "symbol": "sUSD",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/sUSD/logo.svg",
+      "extensions": {
+        "opListId": "default",
+        "opTokenId": "sUSD"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xaf8ca653fa2772d58f4368b0a71980e9e3ceb888",
+      "name": "Tellor",
+      "symbol": "TRB",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/TRB/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "TRB"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://superchaintokens.xyz/data/USDT/logo.png",
       "extensions": {
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
-        "opTokenId": "THALES"
+        "opTokenId": "USDT"
       }
     },
     {
@@ -1577,6 +1625,32 @@
     },
     {
       "chainId": 10,
+      "address": "0x3bB4445D30AC020a84c1b5A8A2C6248ebC9779D0",
+      "name": "Theranos Coin",
+      "symbol": "LIZ",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/LIZ/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "LIZ"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0x747e42Eb0591547a0ab429B3627816208c734EA7",
+      "name": "Threshold Network Token",
+      "symbol": "T",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/T/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "T"
+      }
+    },
+    {
+      "chainId": 10,
       "address": "0x3Eb398fEc5F7327C6b15099a9681d9568ded2e82",
       "name": "Token Name Service",
       "symbol": "TKN",
@@ -1586,19 +1660,6 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "TKN"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0xaf8ca653fa2772d58f4368b0a71980e9e3ceb888",
-      "name": "Tellor",
-      "symbol": "TRB",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/TRB/logo.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "TRB"
       }
     },
     {
@@ -1629,19 +1690,6 @@
     },
     {
       "chainId": 10,
-      "address": "0xbb586ed34974b15049a876fd5366a4c2d1203115",
-      "name": "Universal Basic Income",
-      "symbol": "UBI",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/UBI/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "UBI"
-      }
-    },
-    {
-      "chainId": 10,
       "address": "0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea",
       "name": "UMA Voting Token v1",
       "symbol": "UMA",
@@ -1668,6 +1716,32 @@
     },
     {
       "chainId": 10,
+      "address": "0x0e49ca6ea763190084c846d3fc18f28bc2ac689a",
+      "name": "Unit protocol",
+      "symbol": "DUCK",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/DUCK/logo.png",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "DUCK"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xbb586ed34974b15049a876fd5366a4c2d1203115",
+      "name": "Universal Basic Income",
+      "symbol": "UBI",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/UBI/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "UBI"
+      }
+    },
+    {
+      "chainId": 10,
       "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
       "name": "USD Coin",
       "symbol": "USDC",
@@ -1680,19 +1754,6 @@
     },
     {
       "chainId": 10,
-      "address": "0x7113370218f31764C1B6353BDF6004d86fF6B9cc",
-      "name": "Decentralized USD",
-      "symbol": "USDD",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/USDD/logo.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "USDD"
-      }
-    },
-    {
-      "chainId": 10,
       "address": "0x73cb180bf0521828d8849bc8CF2B920918e23032",
       "name": "USD+",
       "symbol": "USD+",
@@ -1701,19 +1762,6 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "USDplus"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
-      "name": "Tether USD",
-      "symbol": "USDT",
-      "decimals": 6,
-      "logoURI": "https://superchaintokens.xyz/data/USDT/logo.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "USDT"
       }
     },
     {
@@ -1731,19 +1779,6 @@
     },
     {
       "chainId": 10,
-      "address": "0xbfD291DA8A403DAAF7e5E9DC1ec0aCEaCd4848B9",
-      "name": "dForce USD",
-      "symbol": "USX",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/USX/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0xc76cbFbAfD41761279E3EDb23Fd831Ccb74D5D67",
-        "opListId": "extended",
-        "opTokenId": "USX"
-      }
-    },
-    {
-      "chainId": 10,
       "address": "0x0A9AAa1c7542b42233AC7FfdA364E97adE21f160",
       "name": "Validator",
       "symbol": "VALX",
@@ -1753,6 +1788,19 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "VALX"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xc871cCf95024eFa2CbcE69B5B775D2a1DcF49c1B",
+      "name": "ValleyDAO Token",
+      "symbol": "GROW",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/GROW/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GROW"
       }
     },
     {
@@ -1808,6 +1856,32 @@
     },
     {
       "chainId": 10,
+      "address": "0x871f2F2ff935FD1eD867842FF2a7bfD051A5E527",
+      "name": "Wootrade Network",
+      "symbol": "WOO",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/WOO/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "WOO"
+      }
+    },
+    {
+      "chainId": 10,
+      "address": "0xdC6fF44d5d932Cbd77B52E5612Ba0529DC6226F1",
+      "name": "Worldcoin",
+      "symbol": "WLD",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/WLD/logo.svg",
+      "extensions": {
+        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "WLD"
+      }
+    },
+    {
+      "chainId": 10,
       "address": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
       "name": "Wrapped BTC",
       "symbol": "WBTC",
@@ -1846,45 +1920,6 @@
     },
     {
       "chainId": 10,
-      "address": "0xdC6fF44d5d932Cbd77B52E5612Ba0529DC6226F1",
-      "name": "Worldcoin",
-      "symbol": "WLD",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/WLD/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "WLD"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x871f2F2ff935FD1eD867842FF2a7bfD051A5E527",
-      "name": "Wootrade Network",
-      "symbol": "WOO",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/WOO/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "WOO"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x96bBD55479e9923512dcc95Eb7Df5edDe6FB9874",
-      "name": "OpenX Optimism",
-      "symbol": "wOpenX",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/wOpenX/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "wOpenX"
-      }
-    },
-    {
-      "chainId": 10,
       "address": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
       "name": "Wrapped liquid staked Ether 2.0",
       "symbol": "wstETH",
@@ -1911,32 +1946,6 @@
     },
     {
       "chainId": 10,
-      "address": "0xE4F27b04cC7729901876B44f4EAA5102EC150265",
-      "name": "CryptoFranc",
-      "symbol": "XCHF",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/XCHF/logo.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "XCHF"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0x3E5D9D8a63CC8a88748f229999CF59487e90721e",
-      "name": "MetalSwap",
-      "symbol": "XMT",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/XMT/logo.svg",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "XMT"
-      }
-    },
-    {
-      "chainId": 10,
       "address": "0x9046D36440290FfDE54FE0DD84Db8b1CfEE9107B",
       "name": "yearn.finance",
       "symbol": "YFI",
@@ -1946,19 +1955,6 @@
         "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "YFI"
-      }
-    },
-    {
-      "chainId": 10,
-      "address": "0xD1917629B3E6A72E6772Aab5dBe58Eb7FA3C2F33",
-      "name": "0x Protocol Token",
-      "symbol": "ZRX",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/ZRX/logo.png",
-      "extensions": {
-        "optimismBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "ZRX"
       }
     },
     {
@@ -1976,8 +1972,8 @@
     }
   ],
   "version": {
-    "major": 9,
-    "minor": 0,
-    "patch": 21
+    "major": 0,
+    "minor": 2,
+    "patch": 0
   }
 }

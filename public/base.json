@@ -1,8 +1,22 @@
 {
-  "name": "Base",
-  "logoURI": "https://superchaintokens.xyz/base.svg",
-  "timestamp": "2023-12-26T01:55:07.264088",
+  "name": "Superchain Token List",
+  "logoURI": "https://superchaintokens.xyz/optimism.svg",
+  "keywords": ["scaling", "layer2", "infrastructure"],
+  "timestamp": "2024-01-09T00:22:06.495Z",
   "tokens": [
+    {
+      "chainId": 8453,
+      "address": "0x3bB4445D30AC020a84c1b5A8A2C6248ebC9779D0",
+      "name": "0x Protocol Token",
+      "symbol": "ZRX",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/ZRX/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "ZRX"
+      }
+    },
     {
       "chainId": 8453,
       "address": "0xc5fecC3a29Fb57B5024eEc8a2239d4621e111CBE",
@@ -57,6 +71,19 @@
     },
     {
       "chainId": 8453,
+      "address": "0x97c806e7665d3AFd84A8Fe1837921403D59F3Dcc",
+      "name": "Artificial Liquid Intelligence Token",
+      "symbol": "ALI",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/ALI/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "ALI"
+      }
+    },
+    {
+      "chainId": 8453,
       "address": "0x4158734D47Fc9692176B5085E0F52ee0Da5d47F1",
       "name": "Balancer",
       "symbol": "BAL",
@@ -70,6 +97,18 @@
     },
     {
       "chainId": 8453,
+      "address": "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b",
+      "name": "Base tBTC v2",
+      "symbol": "tBTC",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/tBTC/logo.svg",
+      "extensions": {
+        "opListId": "extended",
+        "opTokenId": "tBTC"
+      }
+    },
+    {
+      "chainId": 8453,
       "address": "0x30136B90e532141FeD006c61105cff3668b5c774",
       "name": "BlueSwap",
       "symbol": "BLUE",
@@ -78,19 +117,6 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "BLUE"
-      }
-    },
-    {
-      "chainId": 8453,
-      "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
-      "name": "USD Base Coin",
-      "symbol": "USDbC",
-      "decimals": 6,
-      "logoURI": "https://superchaintokens.xyz/data/BridgedUSDC/logo.png",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "BridgedUSDC"
       }
     },
     {
@@ -134,19 +160,6 @@
     },
     {
       "chainId": 8453,
-      "address": "0xE2B21D4684b2bA62F3BE1FE286eacb90D26E394d",
-      "name": "CryptoOracle Collective",
-      "symbol": "COC",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/COC/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "COC"
-      }
-    },
-    {
-      "chainId": 8453,
       "address": "0x9e1028F5F1D5eDE59748FFceE5532509976840E0",
       "name": "Compound",
       "symbol": "COMP",
@@ -156,6 +169,19 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "COMP"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xE2B21D4684b2bA62F3BE1FE286eacb90D26E394d",
+      "name": "CryptoOracle Collective",
+      "symbol": "COC",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/COC/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "COC"
       }
     },
     {
@@ -186,19 +212,6 @@
     },
     {
       "chainId": 8453,
-      "address": "0x91e1d2b9b0d9afcf1f024df09a68799fb200bc63",
-      "name": "Prime",
-      "symbol": "D2D",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/D2D/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "D2D"
-      }
-    },
-    {
-      "chainId": 8453,
       "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
       "name": "Dai Stablecoin",
       "symbol": "DAI",
@@ -208,19 +221,6 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "default",
         "opTokenId": "DAI"
-      }
-    },
-    {
-      "chainId": 8453,
-      "address": "0xafb89a09d82fbde58f18ac6437b3fc81724e4df6",
-      "name": "The Doge NFT",
-      "symbol": "DOG",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/DOG/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "DOG"
       }
     },
     {
@@ -250,6 +250,19 @@
     },
     {
       "chainId": 8453,
+      "address": "0x85267fBC6e1e1563bB9247336F05D9220eA99f52",
+      "name": "Empower Token",
+      "symbol": "MPWR",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/MPWR/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "MPWR"
+      }
+    },
+    {
+      "chainId": 8453,
       "address": "0xD08a2917653d4E460893203471f0000826fb4034",
       "name": "FARM Reward Token",
       "symbol": "FARM",
@@ -263,6 +276,19 @@
     },
     {
       "chainId": 8453,
+      "address": "0x37289326b7bca5a776a5071b8d693c0588c5c9a6",
+      "name": "Feisty Doge",
+      "symbol": "NFD",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/NFD/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "NFD"
+      }
+    },
+    {
+      "chainId": 8453,
       "address": "0xb008bdcf9cdff9da684a190941dc3dca8c2cdd44",
       "name": "Flux",
       "symbol": "FLUX",
@@ -271,19 +297,6 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "FLUX"
-      }
-    },
-    {
-      "chainId": 8453,
-      "address": "0x09188484e1Ab980DAeF53a9755241D759C5B7d60",
-      "name": "Rigo Token",
-      "symbol": "GRG",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/GRG/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "GRG"
       }
     },
     {
@@ -416,19 +429,6 @@
     },
     {
       "chainId": 8453,
-      "address": "0x85267fBC6e1e1563bB9247336F05D9220eA99f52",
-      "name": "Empower Token",
-      "symbol": "MPWR",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/MPWR/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "MPWR"
-      }
-    },
-    {
-      "chainId": 8453,
       "address": "0xba7D47f471ADD16875e765edEe0858C3413A56Fd",
       "name": "Meta",
       "symbol": "MTA",
@@ -438,19 +438,6 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "MTA"
-      }
-    },
-    {
-      "chainId": 8453,
-      "address": "0x37289326b7bca5a776a5071b8d693c0588c5c9a6",
-      "name": "Feisty Doge",
-      "symbol": "NFD",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/NFD/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "NFD"
       }
     },
     {
@@ -476,6 +463,32 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "NOGS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xcC2a24405480242f8EE5d9b0aE27861D801d7FFA",
+      "name": "OpenX Optimism",
+      "symbol": "wOpenX",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/wOpenX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "wOpenX"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xf34e0cff046e154CAfCae502C7541b9E5FD8C249",
+      "name": "Optimistic Thales Token",
+      "symbol": "THALES",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/THALES/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "THALES"
       }
     },
     {
@@ -518,6 +531,19 @@
     },
     {
       "chainId": 8453,
+      "address": "0x91e1d2b9b0d9afcf1f024df09a68799fb200bc63",
+      "name": "Prime",
+      "symbol": "D2D",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/D2D/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "D2D"
+      }
+    },
+    {
+      "chainId": 8453,
       "address": "0xfa980ced6895ac314e7de34ef1bfae90a5add21b",
       "name": "Prime",
       "symbol": "PRIME",
@@ -530,6 +556,19 @@
     },
     {
       "chainId": 8453,
+      "address": "0x703D57164CA270b0B330A87FD159CfEF1490c0a5",
+      "name": "Rai.Finance",
+      "symbol": "SOFI",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/SOFI/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "SOFI"
+      }
+    },
+    {
+      "chainId": 8453,
       "address": "0x41E99e0F73a88947C52070FF67C19B7aBc171A54",
       "name": "Redemption Finance",
       "symbol": "RDMP",
@@ -538,6 +577,32 @@
       "extensions": {
         "opListId": "extended",
         "opTokenId": "RDMP"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xaB36452DbAC151bE02b16Ca17d8919826072f64a",
+      "name": "Reserve Rights",
+      "symbol": "RSR",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/RSR/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "RSR"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x09188484e1Ab980DAeF53a9755241D759C5B7d60",
+      "name": "Rigo Token",
+      "symbol": "GRG",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/GRG/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "GRG"
       }
     },
     {
@@ -568,19 +633,6 @@
     },
     {
       "chainId": 8453,
-      "address": "0xaB36452DbAC151bE02b16Ca17d8919826072f64a",
-      "name": "Reserve Rights",
-      "symbol": "RSR",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/RSR/logo.png",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "RSR"
-      }
-    },
-    {
-      "chainId": 8453,
       "address": "0xd0D1e44FC9aDAEB732F73fFC2429CD1dB9cD4529",
       "name": "Sipher Token",
       "symbol": "SIPHER",
@@ -590,32 +642,6 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "SIPHER"
-      }
-    },
-    {
-      "chainId": 8453,
-      "address": "0x22e6966B799c4D5B13BE962E1D117b56327FDa66",
-      "name": "Synthetix",
-      "symbol": "SNX",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/SNX/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "SNX"
-      }
-    },
-    {
-      "chainId": 8453,
-      "address": "0x703D57164CA270b0B330A87FD159CfEF1490c0a5",
-      "name": "Rai.Finance",
-      "symbol": "SOFI",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/SOFI/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "SOFI"
       }
     },
     {
@@ -633,18 +659,6 @@
     },
     {
       "chainId": 8453,
-      "address": "0xA9C9Dcb054421DEDc9d9006CFfe843D0a5Cd6339",
-      "name": "Sustainable Growth",
-      "symbol": "SUS",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/SUS/logo.png",
-      "extensions": {
-        "opListId": "extended",
-        "opTokenId": "SUS"
-      }
-    },
-    {
-      "chainId": 8453,
       "address": "0x7D49a065D17d6d4a55dc13649901fdBB98B2AFBA",
       "name": "SushiToken",
       "symbol": "SUSHI",
@@ -658,14 +672,27 @@
     },
     {
       "chainId": 8453,
-      "address": "0x236aa50979D5f3De3Bd1Eeb40E81137F22ab794b",
-      "name": "Base tBTC v2",
-      "symbol": "tBTC",
+      "address": "0xA9C9Dcb054421DEDc9d9006CFfe843D0a5Cd6339",
+      "name": "Sustainable Growth",
+      "symbol": "SUS",
       "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/tBTC/logo.svg",
+      "logoURI": "https://superchaintokens.xyz/data/SUS/logo.png",
       "extensions": {
         "opListId": "extended",
-        "opTokenId": "tBTC"
+        "opTokenId": "SUS"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0x22e6966B799c4D5B13BE962E1D117b56327FDa66",
+      "name": "Synthetix",
+      "symbol": "SNX",
+      "decimals": 18,
+      "logoURI": "https://superchaintokens.xyz/data/SNX/logo.svg",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "default",
+        "opTokenId": "SNX"
       }
     },
     {
@@ -683,15 +710,15 @@
     },
     {
       "chainId": 8453,
-      "address": "0xf34e0cff046e154CAfCae502C7541b9E5FD8C249",
-      "name": "Optimistic Thales Token",
-      "symbol": "THALES",
+      "address": "0xafb89a09d82fbde58f18ac6437b3fc81724e4df6",
+      "name": "The Doge NFT",
+      "symbol": "DOG",
       "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/THALES/logo.png",
+      "logoURI": "https://superchaintokens.xyz/data/DOG/logo.svg",
       "extensions": {
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "THALES"
+        "opListId": "extended",
+        "opTokenId": "DOG"
       }
     },
     {
@@ -718,6 +745,19 @@
         "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
         "opListId": "extended",
         "opTokenId": "TRAC"
+      }
+    },
+    {
+      "chainId": 8453,
+      "address": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+      "name": "USD Base Coin",
+      "symbol": "USDbC",
+      "decimals": 6,
+      "logoURI": "https://superchaintokens.xyz/data/BridgedUSDC/logo.png",
+      "extensions": {
+        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
+        "opListId": "extended",
+        "opTokenId": "BridgedUSDC"
       }
     },
     {
@@ -772,19 +812,6 @@
     },
     {
       "chainId": 8453,
-      "address": "0xcC2a24405480242f8EE5d9b0aE27861D801d7FFA",
-      "name": "OpenX Optimism",
-      "symbol": "wOpenX",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/wOpenX/logo.svg",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "extended",
-        "opTokenId": "wOpenX"
-      }
-    },
-    {
-      "chainId": 8453,
       "address": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
       "name": "Wrapped liquid staked Ether 2.0",
       "symbol": "wstETH",
@@ -808,24 +835,11 @@
         "opListId": "extended",
         "opTokenId": "YFI"
       }
-    },
-    {
-      "chainId": 8453,
-      "address": "0x3bB4445D30AC020a84c1b5A8A2C6248ebC9779D0",
-      "name": "0x Protocol Token",
-      "symbol": "ZRX",
-      "decimals": 18,
-      "logoURI": "https://superchaintokens.xyz/data/ZRX/logo.png",
-      "extensions": {
-        "baseBridgeAddress": "0x4200000000000000000000000000000000000010",
-        "opListId": "default",
-        "opTokenId": "ZRX"
-      }
     }
   ],
   "version": {
-    "major": 9,
-    "minor": 0,
-    "patch": 21
+    "major": 0,
+    "minor": 2,
+    "patch": 0
   }
 }
